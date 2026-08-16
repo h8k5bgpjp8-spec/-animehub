@@ -1,122 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AnimeHub | Anime & Telegram Groups</title>
-  <meta name="description" content="Find anime communities and Telegram groups. Join your favorite anime chat groups.">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: white;
-      text-align: center;
-    }
-
-    header {
-      padding: 40px 20px;
-      background: #111827;
-    }
-
-    h1 {
-      font-size: 42px;
-      margin-bottom: 10px;
-    }
-
-    .subtitle {
-      color: #cbd5e1;
-      font-size: 18px;
-    }
-
-    .search {
-      margin: 25px auto;
-      max-width: 500px;
-      padding: 15px;
-      border-radius: 12px;
-      border: none;
-      width: 80%;
-      font-size: 16px;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-    }
-
-    .card {
-      background: #1e293b;
-      padding: 25px;
-      margin: 20px 0;
-      border-radius: 18px;
-    }
-
-    .card h2 {
-      margin-top: 0;
-    }
-
-    .join {
-      display: inline-block;
-      padding: 12px 25px;
-      background: #229ed9;
-      color: white;
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: bold;
-    }
-
-    footer {
-      padding: 30px;
-      color: #94a3b8;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Hub</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #0f172a;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        h1 {
+            color: #38bdf8;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        p.subtitle {
+            color: #94a3b8;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .card {
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .card h2 {
+            color: #f8fafc;
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+        .card p {
+            color: #cbd5e1;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        .join-btn {
+            display: inline-block;
+            background-color: #0088cc;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .join-btn:hover {
+            background-color: #006699;
+        }
+    </style>
 </head>
-
 <body>
 
-<header>
-  <h1>🔥 AnimeHub</h1>
-  <p class="subtitle">Anime & Telegram Groups</p>
+    <h1>Anime Hub</h1>
+    <p class="subtitle">Join our Telegram Anime Community</p>
 
-  <input
-    class="search"
-    type="text"
-    placeholder="Search Anime or Group..."
-  >https://t.me/+dQTqchTOqclkNjQ8
-</header>
+    <div class="container">
 
-<div class="container">
+        <!-- Card 1: Blue Lock -->
+        <div class="card">
+            <h2>⚽ Blue Lock</h2>
+            <p>Join our Blue Lock anime community on Telegram.</p>
+            <a href="https://t.me/+YFkGpGn6QggzN2M0" class="join-btn" target="_blank">Join Telegram</a>
+        </div>
 
-  <div class="card">
-    <h2>⚽ Blue Lock</h2>
-    <p>Join our Blue Lock anime community on Telegram.</p>https://t.me/+dQTqchTOqclkNjQ8
-    <a class="join" href="https://t.me/YOUR_GROUP" target="_blank">
-      Join Telegram
-    </a>
-  </div>
+        <!-- Card 2: One Piece -->
+        <div class="card">
+            <h2>🏴‍☠️ One Piece</h2>
+            <p>One Piece fans chat and anime community.</p>
+            <a href="https://t.me/+YFkGpGn6QggzN2M0" class="join-btn" target="_blank">Join Telegram</a>
+        </div>
 
-  <div class="card">
-    <h2>🏴‍☠️ One Piece</h2>https://t.me/+dQTqchTOqclkNjQ8
-    <p>One Piece fans chat and anime community.</p>
-    <a class="join" href="https://t.me/YOUR_GROUP" target="_blank">
-      Join Telegram
-    </a>
-  </div>
-
-  <div class="card">
-    <h2>👥 Anime Chat Group</h2>
-    <p>Talk with other anime fans and make new friends.</p>
-    <a class="join" href="https://t.me/YOUR_GROUP" target="_blank">
-      Join Telegram
-    </a>
-  </div>
-
-</div>
-
-<footer>
-  © 2026 AnimeHub
-</footer>
+    </div>
 
 </body>
 </html>
